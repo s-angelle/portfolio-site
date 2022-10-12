@@ -1,0 +1,35 @@
+ul li,
+ul li a {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+#navbar-toggler:active {
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: antiquewhite;
+}
+
+#navbar {
+  background-color: #012d80 !important;
+}
+
+.navbar-brand {
+  color: antiquewhite;
+}
+
+.nav-item {
+    padding: 1rem;
+}
+
+#github-icon {
+font-size: 1.3rem;
+}
+
+#linkedin-icon{
+    font-size: 1.3rem;
+}
+
+
