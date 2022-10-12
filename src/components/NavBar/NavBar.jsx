@@ -37,7 +37,7 @@ const NavBar = () => {
             </Link>
             </li>
           <li className="nav-item mt-1 underline">
-            <a href="/">
+            <a href="mailto:sabrinaangelle@ymail.com">
                 Contact
                 </a>
             </li>
