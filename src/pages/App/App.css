@@ -1,0 +1,18 @@
+* {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.App {
+    color: rgba(255, 255, 255, 0.719);
+    animation: color 9s infinite linear;
+}
+
+@keyframes color {
+    0%   { background: #242731fc }
+    20%  { background: #242731fc }
+    40%  { background: #0b6d6efc; }
+    60%  { background: #1a4350fc; }
+    80%  { background:#242731fc; }
+    100% { background: #242731fc; }
+  }

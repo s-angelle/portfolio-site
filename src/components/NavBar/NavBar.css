@@ -1,5 +1,17 @@
-#navbar {
+
+#logo {
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+}
+
+/* #navbar {
   background-color: #012d80 !important;
+} */
+
+#navbarSupportedContent,
+#nav-list {
+  background-color:transparent!important;
 }
 
 .nav-item {
@@ -10,7 +22,7 @@
 #navbar li a {
     position: relative;
     text-decoration: none;
-    color:antiquewhite;
+    color:rgba(255, 255, 255, 0.779);
 }
 
 #navbar li a::before {
@@ -23,7 +35,7 @@
     content: "";
     transform: scaleX(0);
     transition: transform 0.3s ease;
-    background-color: #e6dcc5;
+    background-color:rgba(255, 255, 255, 0.779);
   }
 
 #navbar .underline a:hover::before,
