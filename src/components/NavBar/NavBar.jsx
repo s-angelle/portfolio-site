@@ -5,7 +5,7 @@ import "./NavBar.css";
 
 const NavBar = () => {
     return (
-        <div>
+        <div id="navbar">
           <nav className="navbar custom navbar-expand-lg p-3" id="navbar">
         <div className="container-fluid d-flex justify-content-center">
           <Link className="navbar-brand col" to="/">
@@ -26,20 +26,20 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-0 mb-lg-0">
-          <li className="nav-item mt-1">
+          <li className="nav-item mt-1 underline">
             <Link to="/about">
                 About
             </Link>
             </li>
-          <li className="nav-item mt-1">
+          <li className="nav-item mt-1 underline">
             <Link to="/projects">
                 Projects
             </Link>
             </li>
-          <li className="nav-item mt-1">
+          <li className="nav-item mt-1 underline">
                 Contact
             </li>
-          <li className="nav-item mt-1">
+          <li className="nav-item mt-1 underline">
                Resume
             </li>
           <li className="nav-item mt-1"> 
