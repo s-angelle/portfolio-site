@@ -5,7 +5,7 @@ import "./NavBar.css";
 
 const NavBar = () => {
     return (
-        <div id="navbar">
+        <div>
           <nav className="navbar custom navbar-expand-lg p-3" id="navbar">
         <div className="container-fluid d-flex justify-content-center">
           <a href="/" className="navbar-brand col">
@@ -27,32 +27,32 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-0 mb-lg-0">
           <li className="nav-item mt-1 underline">
-            <Link to="/about">
+            <Link className="nav-link text-white" to="/about">
                 About
             </Link>
             </li>
           <li className="nav-item mt-1 underline">
-            <Link to="/projects">
+            <Link className="nav-link" to="/projects">
                 Projects
             </Link>
             </li>
           <li className="nav-item mt-1 underline">
-            <a href="mailto:sabrinaangelle@ymail.com">
+            <a className="nav-link" href="mailto:sabrinaangelle@ymail.com">
                 Contact
                 </a>
             </li>
           <li className="nav-item mt-1 underline">
-            <a href="https://www.canva.com/design/DAFHwaDxw34/mZmh7VsekQK5w9byzgLrxw/view?utm_content=DAFHwaDxw34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
+            <a className="nav-link" href="https://www.canva.com/design/DAFHwaDxw34/mZmh7VsekQK5w9byzgLrxw/view?utm_content=DAFHwaDxw34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
                Resume
                </a>
             </li>
           <li className="nav-item mt-1"> 
-            <a href="https://github.com/s-angelle" id="github-link" target="_blank">
+            <a className="nav-link" href="https://github.com/s-angelle" id="github-link" target="_blank">
           <AiFillGithub id="github-icon"/>
           </a>
             </li>
           <li className="nav-item mt-1">
-            <a href="https://www.linkedin.com/in/sabrina-angelle"id="linkedin-link" target="_blank">
+            <a className="nav-link" href="https://www.linkedin.com/in/sabrina-angelle"id="linkedin-link" target="_blank">
                <AiFillLinkedin  id="linkedin-icon"/>
                </a>
             </li>
