@@ -8,10 +8,10 @@ const NavBar = () => {
         <div id="navbar">
           <nav className="navbar custom navbar-expand-lg p-3" id="navbar">
         <div className="container-fluid d-flex justify-content-center">
-          <Link className="navbar-brand col" to="/">
+          <a href="/" className="navbar-brand col">
             Logo
             {/* <img id="company-logo" src={CompanyLogo} alt='Company Logo' /> */}
-          </Link>
+          </a>
           <button
             className="navbar-toggler"
             id="navbar-toggler"
@@ -37,18 +37,22 @@ const NavBar = () => {
             </Link>
             </li>
           <li className="nav-item mt-1 underline">
+            <a href="/">
                 Contact
+                </a>
             </li>
           <li className="nav-item mt-1 underline">
+            <a href="https://www.canva.com/design/DAFHwaDxw34/mZmh7VsekQK5w9byzgLrxw/view?utm_content=DAFHwaDxw34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
                Resume
+               </a>
             </li>
           <li className="nav-item mt-1"> 
-            <a href="https://github.com/s-angelle" target="_blank">
-          <AiFillGithub  id="github-icon"/>
+            <a href="https://github.com/s-angelle" id="github-link" target="_blank">
+          <AiFillGithub id="github-icon"/>
           </a>
             </li>
           <li className="nav-item mt-1">
-            <a href="https://www.linkedin.com/in/sabrina-angelle" target="_blank">
+            <a href="https://www.linkedin.com/in/sabrina-angelle"id="linkedin-link" target="_blank">
                <AiFillLinkedin  id="linkedin-icon"/>
                </a>
             </li>

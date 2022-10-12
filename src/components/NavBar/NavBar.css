@@ -28,6 +28,7 @@
 
 #navbar .underline a:hover::before,
 #footer a:hover::before {
+    margin-top: 5%;
   transform: scaleX(1);
 }
 
@@ -39,7 +40,11 @@
 #github-icon,
 #linkedin-icon{
     font-size: 1.3rem;
+}
 
+#github-link:hover,
+#linkedin-link:hover {
+    color: turquoise;
 }
 
 .navbar-toggler {
