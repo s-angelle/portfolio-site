@@ -1,3 +1,47 @@
-#contact-page-main-div{
-    height: 100vh;
+#contact-page-main-div {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+#contact-page-heading-div{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-shrink: 0;
+    margin-top: 10%;
+    /* margin-right:10%;
+    margin-left:10%; */
+}
+
+.contact-heading{
+    font-size: 6vh;
+}
+
+#contact-p {
+    margin-top: 0.5rem;
+    font-size: 4vh;
+}
+
+#contact-page-button{
+    margin-top: 2%;
+    margin-left:48.5%;
+    height:2.5rem;
+    width: 5rem;
+    background-color: transparent;
+    color:turquoise;
+    border-radius: 0.5em;
+    border: solid turquoise;
+    padding: 0.3rem;
+}
+
+#contact-page-button:hover {
+    background-color: turquoise;
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 5vh;
+    margin-left: 2.7%;
 }
