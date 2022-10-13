@@ -7,7 +7,7 @@ import Logo from "../../images/Logo1.png";
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar custom navbar-expand-lg p-3" id="navbar">
+      <nav className="navbar navbar-dark custom navbar-expand-lg p-3" id="navbar">
         <div className="container-fluid d-flex justify-content-end">
           <a href="/" className="navbar-brand col">
           <img id="logo" src={Logo} alt='Logo' />

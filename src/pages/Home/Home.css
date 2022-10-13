@@ -18,7 +18,3 @@
     font-size: 15vh;
     color: rgba(255, 255, 255, 0.944)
 }
-
-#homepage-photo {
-    object-fit: cover;
-}

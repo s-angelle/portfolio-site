@@ -1,0 +1,29 @@
+#about-main-div {
+    display: flex;
+    flex-direction: row;
+    height:100vh;
+    background: purple;
+}
+
+#author-photo {
+    margin-top:65%;
+    margin-left:45%;
+    width: 100%;
+    flex-shrink: 0;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0.2rem 1rem 1.8rem 0.5rem black;
+    /* border: solid black; */
+}
+
+#about-article {
+margin-top: 16%;
+margin-right:10%;
+margin-left:25%;
+font-size:1.2rem;
+line-height: 2.9rem;
+}
+
+#about-heading {
+    font-size: 8vh;
+}

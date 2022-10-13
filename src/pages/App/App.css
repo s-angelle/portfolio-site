@@ -1,11 +1,8 @@
-* {
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
 .App {
     color: rgba(255, 255, 255, 0.719);
-    animation: color 9s infinite linear;
+    animation: color 7s infinite linear;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 @keyframes color {

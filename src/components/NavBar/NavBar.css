@@ -46,7 +46,7 @@
 
 .navbar-brand,
 #navbar-toggler:active {
-  color: antiquewhite;
+  color: turquoise;
 }
 
 #github-icon,
@@ -57,8 +57,4 @@
 #github-link:hover,
 #linkedin-link:hover {
     color: turquoise;
-}
-
-.navbar-toggler {
-  background-color: antiquewhite;
 }
