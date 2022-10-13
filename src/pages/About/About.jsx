@@ -4,6 +4,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import AuthorPhoto from "../../images/author-photo.jpg";
 
 const About = () => {
+
   return (
     <div id="about-main-div">
       <div id="author-image-div">
