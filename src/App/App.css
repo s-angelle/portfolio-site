@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .App {
     color: rgba(255, 255, 255, 0.719);
     animation: color 7s infinite linear;
