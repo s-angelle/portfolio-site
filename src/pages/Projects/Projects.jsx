@@ -4,7 +4,7 @@ import "./Projects.css";
 
 const Projects = () => {
     return (
-        <div id="projects-div" >
+        <div className="animate__animated animate__rollIn" id="projects-div" >
             <p>This is the Projects Page</p>
         </div>
     );

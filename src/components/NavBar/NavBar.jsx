@@ -28,11 +28,6 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-0 mb-lg-0">
               <li className="nav-item mt-1 underline">
-                <Link className="nav-link" to="/about">
-                  About
-                </Link>
-              </li>
-              <li className="nav-item mt-1 underline">
                 <Link className="nav-link" to="/projects">
                   Projects
                 </Link>
