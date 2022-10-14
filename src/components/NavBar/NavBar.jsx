@@ -57,7 +57,7 @@ const NavBar = () => {
               <li className="nav-item mt-1 underline">
                 <a
                   className="nav-link"
-                  href="https://www.canva.com/design/DAFHwaDxw34/mZmh7VsekQK5w9byzgLrxw/view?utm_content=DAFHwaDxw34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  href="https://drive.google.com/file/d/1JYSUswoM_TDguSBaI58-V-F9R3wLJqiq/view?usp=sharing"
                   target="_blank"
                 >
                   Resume
