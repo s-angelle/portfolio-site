@@ -1,5 +1,7 @@
 # Portfolio Site
 
+Access this here: https://sabrinaangelle.com/
+
 ## Development Process
 
 | DATE     | PROGRESS                           | BLOCKERS | GOALS                             |
