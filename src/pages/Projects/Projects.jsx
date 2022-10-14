@@ -1,8 +1,8 @@
-import Project1 from "../../images/humble-beginnings-website.jpg";
-import Project2 from "../../images/balance-of-fate-game.jpg";
-import Project3 from "../../images/omdb-app.jpg";
-import Project4 from "../../images/dog-brary-app.jpg";
-import Project5 from "../../images/wander-shop-fullstack.jpg";
+import Project1 from "../../images/humble-beginnings-website.png";
+import Project2 from "../../images/balance-of-fate-game.png";
+import Project3 from "../../images/omdb-app.png";
+import Project4 from "../../images/dog-brary-app.png";
+import Project5 from "../../images/wander-shop-fullstack.png";
 import "./Projects.css";
 
 const Projects = () => {
