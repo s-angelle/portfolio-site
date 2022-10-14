@@ -3,10 +3,10 @@
 }
 
 .App {
-    color: rgba(255, 255, 255, 0.719);
-    animation: color 7s infinite linear;
     overflow-x: hidden;
     overflow-y: scroll;
+    color: rgba(255, 255, 255, 0.719);
+    animation: color 7s infinite linear;
 }
 
 @keyframes color {

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
@@ -23,14 +22,14 @@ const Contact = () => {
           Get In Touch
         </h3>
       </div>
-      <a id='contact-link' href="mailto:sabrinaangelle@ymail.com">
-      <button
-        id="contact-page-button"
-        className="animate__animated animate__zoomInUp animate__delay-3s"
-      >
-        Say Hi
-      </button>
-        </a>
+      <a id="contact-link" href="mailto:sabrinaangelle@ymail.com">
+        <button
+          id="contact-page-button"
+          className="animate__animated animate__zoomInUp animate__delay-3s"
+        >
+          Say Hi
+        </button>
+      </a>
     </div>
   );
 };

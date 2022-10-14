@@ -1,29 +1,28 @@
 #about-main-div {
-    display: flex;
-    flex-direction: row;
-    height:100vh;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
 #author-photo {
-    margin-top:49%;
-    margin-left:50%;
-    width: 100%;
-    flex-shrink: 0;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0.2rem 1rem 1.8rem 0.5rem black;
-    /* border: solid black; */
+  margin-top: 49%;
+  margin-left: 50%;
+  flex-shrink: 0;
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0.2rem 1rem 1.8rem 0.5rem black;
 }
 
 #about-article {
-margin-top: 11%;
-margin-right:10%;
-margin-left:25%;
-font-size:1.2rem;
-line-height: 2.9rem;
+  margin-top: 11%;
+  margin-right: 10%;
+  margin-left: 25%;
+  font-size: 1.2rem;
+  line-height: 2.9rem;
 }
 
 #about-heading {
-    font-size: 8vh;
-    margin-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
+  font-size: 8vh;
 }

@@ -1,52 +1,53 @@
 #contact-page-main-div {
-    display: flex;
-    flex-direction: column;
-    height:100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  height: 100vh;
 }
 
-#contact-page-heading-div{
-    display: flex;
-    justify-content: space-around;
-    flex-flow: wrap;
-    flex-shrink: 0;
-    margin-top: 10%;
-    /* margin-right:10%;
-    margin-left:10%; */
+#contact-page-heading-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  flex-flow: wrap;
+  flex-shrink: 0;
 }
 
-.contact-heading{
-    font-size: 6vh;
+.contact-heading {
+  font-size: 6vh;
 }
 
 #contact-p {
-    margin-top: 0.5rem;
-    font-size: 4vh;
-}
-
-#contact-page-button{
-    margin-top: 2%;
-    margin-left:48.5%;
-    height:2.5rem;
-    width: 5rem;
-    background-color: transparent;
-    color:turquoise;
-    border-radius: 0.5em;
-    border: solid turquoise;
-    padding: 0.3rem;
-}
-
-#contact-page-button:hover {
-    background-color: turquoise;
-    color: white;
-    font-weight: bold;
-    box-shadow: 0.1rem 0.9rem 1.1rem 0.5rem #242731fc;
-}
-
-#contact-page-button:active{
-    box-shadow: 0.2rem 1rem 2rem 0.5rem black;
+  margin-top: 0.5rem;
+  margin-right: 2.4%;
+  margin-left: 1%;
+  font-size: 4vh;
 }
 
 h3 {
-    font-size: 5vh;
-    margin-left: 2.7%;
+  margin-left: 2.2%;
+  font-size: 5vh;
+}
+
+#contact-page-button {
+  margin-top: 2%;
+  margin-left: 48.2%;
+  border: solid turquoise;
+  border-radius: 0.5em;
+  height: 2.5rem;
+  width: 5rem;
+  padding: 0.3rem;
+  color: turquoise;
+  background-color: transparent;
+}
+
+#contact-page-button:active {
+  box-shadow: 0.2rem 1rem 2rem 0.5rem black;
+}
+
+#contact-page-button:hover {
+  box-shadow: 0.1rem 0.9rem 1.1rem 0.5rem #242731fc;
+  color: white;
+  background-color: turquoise;
+  font-weight: bold;
 }
