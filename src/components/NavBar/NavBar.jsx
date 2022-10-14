@@ -50,11 +50,6 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="nav-item mt-1 underline">
-              <Link className="nav-link" to="/contact">
-                  Contact
-                </Link>
-              </li>
-              <li className="nav-item mt-1 underline">
                 <a
                   className="nav-link"
                   href="https://drive.google.com/file/d/1JYSUswoM_TDguSBaI58-V-F9R3wLJqiq/view?usp=sharing"
@@ -62,6 +57,11 @@ const NavBar = () => {
                 >
                   Resume
                 </a>
+              </li>
+              <li className="nav-item mt-1 underline">
+              <Link className="nav-link" to="/contact">
+                  Contact
+                </Link>
               </li>
               <li className="nav-item mt-1">
                 <a
