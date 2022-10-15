@@ -42,7 +42,7 @@ const NavBar = () => {
               <li className="nav-item mt-1 underline">
                 <a
                   className="nav-link"
-                  href="https://drive.google.com/file/d/1JYSUswoM_TDguSBaI58-V-F9R3wLJqiq/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1pqaTYvxm3yiNIahG2QIT2-CRlLjdLaye/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
