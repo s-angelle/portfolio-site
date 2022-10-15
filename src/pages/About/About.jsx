@@ -7,7 +7,6 @@ const About = () => {
       <div id="author-image-div">
         <img
           id="author-photo"
-          // className="animate__animated animate__bounceIn"
           src={AuthorPhoto}
           alt="author-portrait"
         />
